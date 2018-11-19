@@ -9,7 +9,7 @@ class Ax1Controller {
 
 	@GetMapping("/")
 	public String root() {
-		return "Hello demo on Wed! I'm served by " + getClass().getName();
+		return "Hello demo on Wed! I'm se rved by " + getClass().getName();
 	}
 
 	@GetMapping("hello/{name}")
